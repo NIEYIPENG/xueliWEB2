@@ -1,0 +1,252 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "微软雅黑", Arial, Verdana, "Tahoma", serif;
+}
+
+/*清除浮动*/
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+.header {
+    background: #fff
+}
+
+.top {
+    width: 1200px;
+}
+
+
+
+
+.nav {
+    height: 54px;
+    background-color: #dc143c;
+}
+
+.nav ul {
+    list-style: none;
+    margin: auto;
+    width: 1200px;
+}
+
+.nav ul li {
+    display: inline;
+    line-height: 54px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 30px;
+    font-size: 16px;
+}
+
+.nav ul li a:hover {
+    background-color: #bb0d30;
+    color: #fff !important;
+}
+
+.seek {
+    padding-top: 30px;
+    float: right
+}
+
+.seek form {
+    display: block;
+    padding: 0 101px 0 78px;
+    z-index: 0;
+    width: 314px;
+    position: relative;
+    height: 36px;
+    margin: 0 125px;
+}
+
+.seek .login input {
+    width: 101px;
+    border: 2px solid #dc143c;
+    height: 38px;
+    background: #dc143c;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* margin: 0 125px; */
+.seek form .p {
+    height: 36px;
+    width: 78px;
+    background: url(../img/wire.png) no-repeat right center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: #4c4c4c;
+    font-size: 16px;
+}
+
+.seek form .p i {
+    width: 11px;
+    height: 5px;
+    background: url(../img/arrows.png) no-repeat;
+    margin-left: 6px;
+    vertical-align: 3px;
+}
+
+.seek form .p b {
+    font-weight: normal;
+}
+
+.seek form .seek_c {
+    display: none;
+    position: absolute;
+    width: 77px;
+    top: 36px;
+    left: -1px;
+    border: 1px solid #d0d0d0;
+    border-top: none;
+    z-index: 9999;
+    background: #fff;
+}
+
+.seek form .seek_c span {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    width: 77px;
+    background: url(../img/seek_wire.png) no-repeat bottom center;
+    text-align: center;
+}
+
+.seek form .seek_c span:hover {
+    background: #f0f0f0 url(../img/seek_wire.png) no-repeat bottom center;;
+    cursor: pointer;
+}
+
+.seek form .submit {
+    width: 101px;
+    height: 38px;
+    background: #dc143c;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.seek form .text {
+    padding-left: 17px;
+    width: 298px;
+    height: 33px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #000;
+}
+
+/*----------------------底部----------------------*/
+.all_common_footer {
+    width: 1200px;
+    background-color: #fff;
+    overflow: hidden;
+    border-top: 2px solid #e44141;
+    line-height: 70px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.all_common_footer_conter {
+    width: 1180px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.all_common_footer_conter ul {
+    width: 660px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 30px 0 22px 0;
+}
+
+.all_common_footer_conter li {
+    float: left;
+    font-size: 14px;
+    color: #141414;
+    list-style: none
+}
+
+.all_common_footer_conter li a {
+    color: #333;
+    font-size: 14px
+}
+
+.all_common_footer_conter li a:hover {
+    color: #f30000;
+}
+
+.all_common_footer_conter .hang {
+    padding: 0 14px;
+    font-size: 14px;
+    color: #141414;
+}
+
+.all_common_footer_conter .advertising {
+    width: 1180px;
+    height: 38px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.all_common_footer_conter .banquan_entirety {
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.all_common_footer_conter .banquan {
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.all_common_footer_img {
+    margin: 18px auto;
+    display: block;
+    width: 218px;
+}
+
+#changyan_floatbar_wrapper {
+    display: none !important
+}
+
+#powerby_sohu a {
+    font-size: 0 !important;
+    line-height: 0 !important
+}
+
+.section-service-w {
+    font-size: 0 !important;
+    line-height: 0 !important;
+}
+
